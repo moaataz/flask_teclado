@@ -38,6 +38,11 @@ def delete_store(store_id):
         return {'message':'item deleted succsesfully'},201
     except KeyError:
         return abort(404,message='item not found')
+@app.get('/item')
+def get_items():
+    return 'hello world'
+    return {'items':items},200
+
 @app.post('/item')
 def create_item():
     item_data = request.get_json()
