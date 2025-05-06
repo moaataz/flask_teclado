@@ -2,10 +2,10 @@
 
 this flask teclado is an app for flask teclado course
 and the author of course is josie salvatera so we in
-this repository to learn flask and gain experience
+this repository to *learn flask* and gain experience
 
 
-to run use `flask run` and this code runs this app.py
+to run use `flask run` and **this code runs this app.py**
 ```
 from flask import Flask,jsonify
 from flask_smorest import Api
