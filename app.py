@@ -11,6 +11,7 @@ from flask_migrate import Migrate
 import os
 import secrets
 
+
 import models
 def create_app(databaseUrl=None):
 
